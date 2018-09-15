@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    text-align:center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+button {
+    background: #76B3FA;
+    border-radius: 100px;
+    padding: 20px 60px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.45em;
+    margin: 0 15px;
+    width: 250px;
+}
+
+.output { 
+    color: #4c4a37; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 18px; 
+    line-height: 32px; 
+    margin: 0 0 24px; 
+}
+
